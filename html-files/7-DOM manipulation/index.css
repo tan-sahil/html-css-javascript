@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', sans-serif;
+    background-color: blueviolet;
+
+}
+
+.main-cointaner{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+    border: 2px solid whitesmoke;
+    border-radius: 2rem;
+}
+
+#main-heading{
+    font-size: 15px;
+}
+.list-items{
+    color: white;
+    margin-right: 10%;
+    height: 1.5rem;
+    list-style: none;
+    border: 1.5px solid whitesmoke;
+    text-align: center;
+    
+}
+
+.but{
+    font-size: 2rem;
+    color: white;
+}

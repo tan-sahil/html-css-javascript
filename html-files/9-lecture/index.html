@@ -1,0 +1,54 @@
+<!-- using animation for making thigs work:-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes movement {
+            from{
+            top: 0;
+            left: 0;}
+            to{
+                top: 0;
+                left: 1200px;}
+            
+        }
+        .box{
+            width: 100vw;
+            height: 100vh;
+            border: 3px solid black;
+        }
+        .main-container{
+            background-color: red;
+            height: 200px;
+            width: 300px;
+            position: relative;
+            
+            animation-name: movement;
+            animation-duration: 5s;
+            animation-direction: normal;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+           
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+           
+
+        }
+    </style>
+</head>
+<body>
+   <div class="box">
+    <div class="main-container">
+
+   </div>
+    </div>
+</body>
+</html>

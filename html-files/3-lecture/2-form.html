@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="Phone ">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+        <br>
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="file">
+        <br>
+        <br>
+        <label for="number">Expirience (in years):</label>
+        <input type="number" id="number" name="number" min="0" max="20" step="1">
+        <br>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="check1" name="name">
+            <br>
+            <label for="check1">HTML</label>
+            <br>
+            <input type="checkbox" id="check2" name="name">
+            <br>
+            <label for="check2">CSS</label>
+            <br>
+            <input type="checkbox" id="check3" name="name">
+            <br>
+            <label for="check3">JavaScript</label>
+            <br>
+        </fieldset>
+        <label for="edu">Highest Education</label>
+        <br>
+        <select name="education" id="edu">
+            <option value="High School">High School</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Post Graduation">Post Graduation</option>
+        </select>
+
+
+    </form>
+</body>
+</html>

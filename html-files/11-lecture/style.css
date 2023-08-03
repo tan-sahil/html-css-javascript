@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%,
+     rgba(84,20,65,0.9248074229691877) 100%);
+}
+.container{
+    width: 100%;
+    height: 100%;
+} 
+.navbar{
+    width: 100%;
+    
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between; 
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+ rgba(80,57,133,0.8715861344537815) 35%, rgba(0,212,255,1) 100%); 
+   box-shadow: 0 1px 3px;
+
+}
+.navbar h1{
+    color:azure;
+    width: 50%;
+}
+.navbar-ul{
+    width: 50%;    
+    list-style-type: none;
+    display:flex;
+    padding: 0 60px 0 40px;
+    justify-content: space-around;
+}
+.navbar-ul li{
+    font-size: 2rem; 
+      
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+.main-content{
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%,
+ rgba(70,252,122,0.7993401000218362) 100%);
+ /* box-shadow: 1px 0.75 7px; */
+
+}
+.item{
+    padding-top: 50px;
+    width: 60%;
+    margin: auto;
+    /* margin-top: 10px; */
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%,
+ rgba(70,252,122,0.7993401000218362) 100%); */
+
+   
+    display: flex;
+    padding-top: 2px;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 0.75px 7px;
+}
+.rightImg img{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+}
+
+
+.ingredient{
+    margin: 10px 0;
+}
+.ingredient-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+fieldset{
+    border-style: none;
+}
+legend{
+    font-size: 1.4rem;
+    margin: 10px;
+    margin-top: 10px;
+    color: azure;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Doc</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100%;
+            height: 100vh;
+            background-color: 1px solid black;
+            background-color: green;
+            padding: 20px;
+        }
+        .box{
+            width: 280px;
+            height: 80px;
+            position: relative;
+            background-color: red;
+            position: relative;
+            padding: 10px;
+            margin: 10px;
+            /* animation-name: moveRight; */
+            /* animation-duration: 5s; */
+            animation: 5s linear 2s infinite alternate none running moveRight;
+
+            
+        }
+        @keyframes moveRight {
+            from{
+                top: 10px;
+                left: 10px;
+            }
+            to{
+                top: 10px;
+                left: 1550px;
+            }
+        }
+        .new{
+            position: relative;
+            background-color: red;
+            width: 320px;
+            height: 80px;
+            border-radius: 6px;
+            top: 650px;
+            left: 1550px;     
+            animation: 5s linear 2s infinite alternate none running moveBottom;    
+        }
+        @keyframes moveBottom {
+            from{
+                top: 650px;
+                left: 1550px;
+            }
+            to{
+                top: 650px;
+                left: 10px;
+            }
+            
+        }
+        .circle{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 40px;
+            position: relative;
+            top: 375px;
+            left: 795px;
+            animation: 6s linear 2s infinite alternate  none running circleMove;
+
+        }
+        @keyframes circleMove {
+            0% {
+                top: 40px;
+                left: 40px;
+            }
+            30%{
+                top: 600px;
+                left: 1300px;
+            }
+            60%{
+                top: 30px;
+                left: 100px;
+            }
+            100%{
+                top: 600px;
+                left: 30px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box"></div>
+        <div class="circle"></div>
+        <div class="new"></div>
+    </div>
+</body>
+</html>

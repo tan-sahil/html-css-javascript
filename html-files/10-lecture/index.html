@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .main{
+            height: 600px;
+            width: 700px;
+            background-color: yellowgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            transition: all 5s linear 1s;
+
+            
+        }
+        p{
+            font-size: 2.3rem;
+        }
+        .main:hover{
+            /* transform: rotate(45deg);  rotation is done by this code*/
+            /* transform: scale(2); */
+            /*  it will increase the size two times of its current size */
+            /* can make it move in x axis and y axis.. that can be done by transform: translate() */
+            height: 250px;
+            width: 300px;
+            transform: rotate(360deg);
+            transform-origin: 70%;
+            /* transform: translate(40px , 50px) */
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <p>Hello My Friend</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    
+
+body{
+    background-image: url('./sandTimer.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 1.125rem;
+    margin-top: 120px;
+}
+.main-div .timer{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 40px;
+}
+ .start-stp-btn{
+    
+    margin: 0 50%;
+    padding: 10px;
+ } 
+ .start-stp-btn #play{
+    background-color: green;
+    
+ }  
+ .start-stp-btn #restart{
+    background-color: blue;
+    
+    
+ }  

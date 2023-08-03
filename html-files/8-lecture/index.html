@@ -1,0 +1,57 @@
+<!-- using css postion relative property-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS POSITION PROPERTY</title>
+    <style>
+        :root{
+            --custom-color: blue;
+            --custom-width: 300px;
+        }
+        .main-container{
+            position: relative;
+        }
+        div{
+            width: var(--custom-width);
+            height: var(--custom-width);
+            display: inline-block;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 2px solid green;
+        }   
+        .first{
+            background-color: var(--custom-color);
+            /* position: absolute; */
+            box-shadow: 10px 15px 5px red;
+        
+            
+        }
+        .second{
+            background-color: red;
+            position: absolute;
+        }
+        .third{
+            background-color: yellow;
+            /* position: absolute; */
+        }
+        .fourth{
+            background-color: var(--custom-color);
+            /* position: absolute; */
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main-container">
+        <div class="first">
+
+        </div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div class="fourth"> </div>
+    </main>
+</body>
+</html>
